@@ -78,7 +78,7 @@ function handleContentsInput() {
 }
 function handleInputFocusout(e) {
   const target = e.target;
-  if (target.innerText === "\n") {
+  if (target.innerText.trim() === "") {
     target.innerText = "";
   }
 }
