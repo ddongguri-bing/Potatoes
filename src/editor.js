@@ -78,7 +78,11 @@ function handleContentsInput() {
 }
 function handleInputFocusout(e) {
   const target = e.target;
-  if (target.innerText.trim() === "") {
+
+  if (
+    target.hasAttribute("contenteditable") &&
+    target.innerText.trim() === ""
+  ) {
     target.innerText = "";
   }
 }
