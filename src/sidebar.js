@@ -49,10 +49,10 @@ export async function createNewPage(parentId) {
       const listItem = document.createElement("li");
       listItem.innerHTML = `
       <div class="flex relative">
-        <img src="/assets/toggle-icon.svg" alt="토글 아이콘" class="toggle-icon" />
+        <img src="./assets/toggle-icon.svg" alt="토글 아이콘" class="toggle-icon" />
         <a href="${pathname}" class="doc-item" data-id="${id}">${title}</a>
         <button class="doc-item__add">
-          <img src="/assets/plus-icon.svg" alt="새 페이지 추가 버튼" class="icon" />
+          <img src="./assets/plus-icon.svg" alt="새 페이지 추가 버튼" class="icon" />
         </button>
       </div>
     `;
@@ -89,10 +89,10 @@ export async function createNewPage(parentId) {
       const listItem = document.createElement("li");
       listItem.innerHTML = `
       <div class="flex relative">
-        <img src="/assets/toggle-icon.svg" alt="토글 아이콘" class="toggle-icon" />
+        <img src="./assets/toggle-icon.svg" alt="토글 아이콘" class="toggle-icon" />
         <a href="${pathname}" class="doc-item" data-id="${id}">${title}</a>
         <button class="doc-item__add">
-          <img src="/assets/plus-icon.svg" alt="새 페이지 추가 버튼" class="icon" />
+          <img src="./assets/plus-icon.svg" alt="새 페이지 추가 버튼" class="icon" />
         </button>
       </div>
     `;
